@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-svn co https://projects.coin-or.org/svn/Ipopt/releases/3.11.4 .
+svn co https://projects.coin-or.org/svn/Ipopt/releases/3.11.7 .
 prefix=$PWD/build01
 
 
