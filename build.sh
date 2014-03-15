@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-IPOPT_VER=3.11.4
+IPOPT_VER=3.11.7
 curl -O http://www.coin-or.org/download/source/Ipopt/Ipopt-$IPOPT_VER.tgz
 tar -xzf Ipopt-$IPOPT_VER.tgz
 cd Ipopt-$IPOPT_VER
