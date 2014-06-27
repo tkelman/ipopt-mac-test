@@ -1,6 +1,8 @@
 language: objective-c
-before_install:
-  - brew install gfortran
+#before_install:
+#  - brew install 
+#  - brew install gfortran
 script:
-  - chmod +x build.sh
-  - ./build.sh
+   - brew install binutils
+#  - chmod +x build.sh
+#  - ./build.sh
